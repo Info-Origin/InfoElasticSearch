@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, minimum-scale=0.8, user-scalable=no" />
+
+    <script>
+      // Disable zooming and set the zoom level to 80%
+      function setZoomLevel() {
+        const zoomLevel = 0.8;
+        const viewportMetaTag = document.querySelector('meta[name="viewport"]');
+        viewportMetaTag.content = `width=device-width, initial-scale=${zoomLevel}, maximum-scale=${zoomLevel}, minimum-scale=${zoomLevel}, user-scalable=no`;
+      }
+
+      // Call the setZoomLevel function when the DOM is ready
+      document.addEventListener('DOMContentLoaded', setZoomLevel);
+    </script>
+    
+    <!-- Removed redundant viewport tag -->
+
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f5f5f5;
+      }
+      /* Other CSS styles */
+    </style>
+
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Resume Parser</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
