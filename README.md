@@ -67,7 +67,7 @@ node server.js
 
 ```
 npm start
-
+```
 
 9. Access the application through the provided URL or local development server.
 
