@@ -50,7 +50,7 @@ npm install natural
 ```
 
 ## Basic Steps for Running
-### Replace the placeholders for credentials with your credentials.
+### Replace the placeholders for credentials with your credentials (AWS credentials in ResumeParserSection.js, Mysql credentials in server.js).
 1. Start Elasticsearch service and make sure it is running.
 2. Start the MySQL service and ensure it is running.
 3. Open a terminal or command prompt.
