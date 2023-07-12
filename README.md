@@ -23,13 +23,14 @@ Resume Parser is a fully functional resume parser application with integrated se
 2. Extract the contents of the zip file.
 3. Open a terminal or command prompt and navigate to the project directory.
 
-### Server-side Installation
+## Server-side Installation
 
-
+```
 npm install express multer pdfjs-dist cors sequelize @elastic/elasticsearch
 ```
 
-### Client-side Installation
+## Client-side Installation
+
 ```
 cd client
 npm install react bootstrap axios @mui/material/typeface-roboto @mui/material/AppBar @mui/material/Toolbar @mui/material/Typography @mui/material/Button @mui/material/Container @mui/material/Box @mui/material/CircularProgress
