@@ -6,9 +6,9 @@ import DataField from './DataField';
 import SkillsSection from './SkillsSection';
 import { uploadResume, saveData } from './utils/api';
 const AWS = require('aws-sdk');
-const ID = 'AKIAQRESK2MVAIJ5PCOC';
-const SECRET = '/C7Jkc8F88jMMTSGzmY4HDRNr5kZTTYnzABElQA8';
-const BUCKET_NAME = 'kcuberesumes';
+const ID = 'yourKeyHere';
+const SECRET = 'yourSecretKeyHere';
+const BUCKET_NAME = 'bucketName';
 
 AWS.config.update({
     accessKeyId: ID,
