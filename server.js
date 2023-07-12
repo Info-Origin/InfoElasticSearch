@@ -12,7 +12,7 @@ const { extractName, extractSkills, extractEmail, extractExperience, extractEduc
 const client = new Client({ node: 'http://localhost:9200' });
 const indexName = 'resumes';
 
-const sequelize = new Sequelize('RP', 'root', 'Mysql@123', {
+const sequelize = new Sequelize('yourDbName', 'username', 'password', {
   host: 'localhost',
   dialect: 'mysql',
   define: {
@@ -35,7 +35,7 @@ const Resume = sequelize.define('resume', {
     type: Sequelize.INTEGER,
     defaultValue: 0
   }
-}, { tableName: 'resumes' });
+}, { tableName: 'tableName' });
 
 sequelize.authenticate()
   .then(() => {
