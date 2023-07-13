@@ -35,6 +35,11 @@ Replace the placeholders for credentials with your credentials (Mysql credential
 ## Note :
 1) While editing the data for a candidate after searching for a skill make sure you press 'Enter' after editing the respective detail.
    e.g once you edit the name, press Enter after editing. Then if you want to edit an email, press enter after editing it. And then press the save button altogether to save both edits at once.
+   ![image](https://github.com/Info-Origin/InfoElasticSearch/assets/60666045/3cdfb99b-8a4f-4ea9-8ee8-136c45e46117)
+
+2)After pressing the sync button you will be directed to the next page by default. To view to update statuses after your previous edits navigate to the previous page again.
+![image](https://github.com/Info-Origin/InfoElasticSearch/assets/60666045/dde9e66a-9631-491e-81a3-bf8f71efeabd)
+    
 
 
 
