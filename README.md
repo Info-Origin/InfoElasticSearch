@@ -1,15 +1,15 @@
 # Resume Parser
 
-##Description
+## Description
 This project is a web application that allows users to parse resumes with integrated candidate search functionality. 
 
-##Features
+## Features
 
 * Resume Parser: Users can upload resume pdf and parse them using JavaScript parsing or NLP parsing methods. The parsed data can be edited before saving it to the database.
 * Resume Database: Provides a list of all stored resumes in the database. Users can update resume information directly from this app.
 * Candidate Search: Enables users to search for candidates based on desired skills.
 
-##Working
+## Working
 ![image](https://github.com/Info-Origin/InfoElasticSearch/assets/57308428/1a27ca39-88c2-4a6f-8b79-e815c940869d)
 
 
@@ -19,7 +19,7 @@ This project is a web application that allows users to parse resumes with integr
 * Elasticsearch 8.8.1
 * MySQL 8.0
 
-##Getting Started
+## Getting Started
 To run the project locally, follow these steps:
 1. Clone the repository to your local machine.
 2. Client-side Installation
