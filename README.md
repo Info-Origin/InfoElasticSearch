@@ -9,6 +9,6 @@ Resume Repository: Offers a comprehensive collection of stored resumes within th
 Skill-based Candidate Exploration: Empowers users to conduct targeted searches for candidates based on specific skill sets of interest.
 
 ## Working
-{node server.js}
+`node `
 
 
