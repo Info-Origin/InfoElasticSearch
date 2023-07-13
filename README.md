@@ -9,6 +9,7 @@ Resume Repository: Offers a comprehensive collection of stored resumes within th
 Skill-based Candidate Exploration: Empowers users to conduct targeted searches for candidates based on specific skill sets of interest.
 
 ## Working
-`node `
+![image](https://github.com/Info-Origin/InfoElasticSearch/assets/60666045/154c3ec6-080a-42b3-a854-7d29871c5103)
+
 
 
