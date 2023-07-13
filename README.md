@@ -17,7 +17,8 @@ To run the project locally, follow these steps:
 2) Client-side Installation Install the below frontend dependencies by running the following command:
    `cd client`
    `npm install`.
-3) Server-side Installation Install the required backend dependencies by running the following command:
+3) Create a table in SQL by putting a get request on postman : http://localhost:5000/api/create/table .   
+4) Server-side Installation Install the required backend dependencies by running the following command:
    `cd backend`
    `npm install`.
 ## Basic Steps for Running
