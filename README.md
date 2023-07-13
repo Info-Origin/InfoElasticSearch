@@ -16,7 +16,7 @@ To run the project locally, follow these steps:
 1) Clone the repository to your local machine.
 2) Client-side Installation Install the below frontend dependencies by running the following command:
    `cd client
-   npm install'
+   npm install`
 3)Server-side Installation Install the required backend dependencies by running the following command:
    `cd backend
    npm install`
